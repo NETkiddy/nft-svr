@@ -1,0 +1,15 @@
+[project]
+name = "test-redis"
+version = "1.0.0"
+
+[redis]
+addr = "0.0.0.0:6379"
+password = "123456"
+index = 0
+prefix= "test-redis"
+maxidle = 10
+maxactive = 10
+idletimeout = 60
+readtimeout = 3                                                                                                                                                                   
+writetimeout = 3                                                                                                                                                                  
+connecttimeout = 5 

@@ -1,0 +1,19 @@
+[server]
+
+[openapi]
+url = "https://goldenlegend.staging.nervina.cn/api/v1/"
+key = ""
+secret = ""
+
+[mysqldata]
+source_name = "kiddy:8jPYnNatmLLi7X@(127.0.0.1:6378)/bee_logic?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai"
+ro_source_name = "kiddy:8jPYnNatmLLi7X@(127.0.0.1:6378)/bee_logic?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai"
+conn_max_life_minutes = 1
+max_open_conns = 100
+max_idle_conns = 50
+
+[gorm]
+log_mode = true
+
+[gin]
+mode = "debug"
